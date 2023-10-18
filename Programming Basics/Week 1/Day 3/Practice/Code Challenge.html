@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function howMuchLeftOverCake(numberOfPieces, numberOfPeople) {
+  const remainingPieces = numberOfPieces - numberOfPeople;
+
+
+  if (remainingPieces === 0) {
+    console.log("No leftovers for you!");
+  } else if (remainingPieces <= 2) {
+    console.log("You have some leftovers.");
+  } else if (remainingPieces >= 3 && remainingPieces <= 5) {
+    console.log("You have leftovers to share.");
+  } else {
+    console.log("Hold another party!");
+  }
+    }   
+    howMuchLeftOverCake(10, 8);  
+    howMuchLeftOverCake(5, 3);   
+    howMuchLeftOverCake(15, 10); 
+    howMuchLeftOverCake(20, 5);  
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
