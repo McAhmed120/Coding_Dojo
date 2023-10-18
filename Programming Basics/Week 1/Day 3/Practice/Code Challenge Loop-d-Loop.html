@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const maxPosition = 6; 
+        const runnerSpeed = 6.0; 
+        const candyMilestone = 2; 
+
+        for (let runnerPosition = 0; runnerPosition < maxPosition; runnerPosition += 2) {
+        if (runnerPosition % candyMilestone === 0 && runnerSpeed > 5.5) {
+     console.log(`Runner gets a piece of candy at ${runnerPosition} miles.`);
+        } 
+        }
+
+        const runnerSpeed2 = 7.0; 
+
+        for (let runnerPosition = 0; runnerPosition < maxPosition; runnerPosition += 2) {
+        if (runnerPosition % candyMilestone === 0 && runnerSpeed2 > 5.5) {
+        console.log(`Faster runner gets a piece of candy at ${runnerPosition} miles.`);
+       }
+     }
+
+    </script>
+</body>
+</html>
