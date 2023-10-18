@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       function greet(name) {
+        
+  let greeting = "Good day, " + name + "!";
+
+  if (name === "Count Dooku") {
+    greeting = "I'm coming for you, Dooku!";
+  }
+  const now = new Date();
+  const hours = now.getHours();
+
+  if (hours < 12) {
+    greeting = "Good morning, " + name + "!";
+  } else if (hours < 17) {
+    greeting = "Good afternoon, " + name + "!";
+  } else {
+    greeting = "Good evening, " + name + "!";
+  }
+  console.log(greeting);
+    }
+    greet("Anakin"); 
+    greet("Count Dooku"); 
+
+
+    </script>
+</body>
+</html>
