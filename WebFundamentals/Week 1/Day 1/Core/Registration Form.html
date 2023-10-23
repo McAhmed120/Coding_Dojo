@@ -6,8 +6,9 @@
     <title>Registration Form</title>
 </head>
 <body>
+    <fieldset>
     <h1>Registration Form</h1>
-    <form action=""></form>
+  <form action="">
     <div>
         <label for="First Name">First Name : *</label>
         <input type="text" placeholder="Enter your First Name" required>
@@ -29,6 +30,43 @@
         <input type="date" placeholder="mm/dd/yyyy" >
 
     </div>
+    <div>
+        <P>Gender Idendity :</P>
+        <input type="checkbox">
+        <label for="text">Male</label>
+        <input type="checkbox">
+        <label for="text">Female</label>
+        <input type="checkbox">
+        <label for="text">Non-Binary</label>
+        <input type="checkbox">
+        <label for="text">I prefer not to answer</label>
+    </div>
+    <div>
+        <p>A short description about myself : </p>
+        <textarea name="text" id="" cols="30" rows="10"></textarea>
+    </div>
 
+    <div>
+        <label for="text">favorite language</label>
+        <select name="" id="">
+            <option value="">JavaScript</option>
+            <option value="">CSS</option>
+            <option value="">HTML</option>
+        </select>
+
+    </div>
+
+   <div>
+    <input type="checkbox" name="" id="">
+    <label for="text">Yes I would like to receive periodic email updates </label>
+   </div>
+   <div>
+   <input type="submit" value="Create Account">
+   </div>
+   <p>* Indicates a required field  </p>
+
+
+  </form> 
+ </fieldset>
 </body>
 </html>
