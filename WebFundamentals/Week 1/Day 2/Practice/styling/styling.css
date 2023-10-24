@@ -1,0 +1,15 @@
+h1 {
+    background-color: black;
+    color: aqua;
+
+}
+h2{
+    background-color: rgb(111, 17, 146);
+    color: white;
+    text-align: center;
+}
+h3{
+    color: blueviolet;
+    background-color: aqua;
+    text-align: right;
+}
