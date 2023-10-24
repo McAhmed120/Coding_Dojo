@@ -1,7 +1,10 @@
 h1 {
     background-color: black;
-    color: aqua;
+    color: white;
 
+}
+span{
+    color: aqua;
 }
 h2{
     background-color: rgb(111, 17, 146);

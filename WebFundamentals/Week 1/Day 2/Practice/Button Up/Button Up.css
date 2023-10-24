@@ -1,0 +1,16 @@
+.search{
+    border-radius: 50%;
+    font-size: x-large;
+    color:greenyellow;
+    background-color: white;
+}
+.plus{
+    border-radius: 50% ;
+    background-color: aquamarine;
+    color: white;
+}
+.creation{
+    font-size: x-large;
+    background-color: blue;
+    color: white;
+}
