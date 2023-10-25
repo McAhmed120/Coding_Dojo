@@ -1,0 +1,20 @@
+body{
+    background-color:gray;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.Space1{
+    background-color: aqua;
+
+}
+
+.Space2{
+    background-color: pink;
+    position: relative;
+}
+.Space3{
+    background-color: white;
+    
+}
