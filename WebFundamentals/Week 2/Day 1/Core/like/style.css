@@ -1,0 +1,107 @@
+.main{
+    /* border: 2px black solid; */
+}
+/* body{
+    font-size: 1.2rem;
+    font-family: 'Lucida', 'sans-serif';
+    font-weight: bold;
+} */
+.net{
+    background-color: black;
+    color: white;;
+}
+.feed h2{
+    text-align: center;
+}
+.user{
+    outline-color: black;
+    outline: 10cm;
+    border: 2px black solid;
+    width: 120px;
+    padding: 20px;
+    margin: 200px ;
+    margin-top: auto;
+
+}
+
+.Add{
+    color: blue;
+}
+.right{
+    border-radius: 20px;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+.user2{
+    border: 2px black solid;
+    width: 231%;
+}
+
+.btn1{
+    background-color: yellow;
+    color: black;
+    border-radius: 50px;
+    
+}
+.top{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.P{
+    margin-left: 10px;
+}
+.bot{
+    border-radius: 20px;
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+.user3{
+    border: 2px black solid;
+    width: 1000px;
+
+}
+.btn2{
+    background-color: yellow;
+    color: black;
+    border-radius: 50px;
+    
+}
+.top1{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.P1{
+    margin-left: 10px;
+}
+.down{
+    border-radius: 20px;
+    position: absolute;
+    left: 400px;
+    bottom: 150px;
+}
+.user4{
+    /* margin-left: 10px; */
+    border: 2px black solid;
+    width: 1000px;
+}
+.top2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p2{
+    margin-left: 10px;
+}
+.btn3{
+    background-color: yellow;
+    color: black;
+    border-radius: 50px;
+    
+
+}
