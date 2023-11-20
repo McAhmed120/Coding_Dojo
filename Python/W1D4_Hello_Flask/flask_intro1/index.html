@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        First Template From Flask Server 
+    </h1>
+    <h2>
+        user Name : {{user}} <br>
+        user age : {{number}} <br>
+    </h2>
+    
+    <hr>
+    {% for user in users %}
+    <p>{{user['name']}} --- {{user['age']}}</p>
+    {% endfor %}
+    {% for i in range(5) %}
+        <h4>{{i}}</h4>
+    {% endfor %}
+    
+    <table>
+        <tr>
+            <th>name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>{{User['name']}}</td>
+            <td>{{user['age']}}</td>
+        </tr>
+        {% end for %}
+    </table>
+</body>
+</html>
