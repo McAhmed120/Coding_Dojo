@@ -1,0 +1,27 @@
+INSERT INTO dojos (name) VALUES ("Roberto");
+INSERT INTO dojos (name) VALUES ("Jhon");
+INSERT INTO dojos (name) VALUES ("James");
+select * from dojos;
+
+DELETE FROM dojos where id=3 or id=2 or id=1;
+
+INSERT INTO dojos (name) VALUES ("Patrick");
+INSERT INTO dojos(name) VALUES ("David");
+INSERT INTO dojos(name) VALUES (Tomas) ;
+
+INSERT INTO ninjas (first_name ,last_name,Dojo_ID) VALUES ("slm","slm",6);
+INSERT INTO ninjas (first_name ,last_name,dojos_id) VALUES ("Steave,Cross",1);
+INSERT INTO ninjas (first_name ,last_name,dojos_id) VALUES ("Pablo,Reuis",1) ;
+INSERT INTO ninjas (first_name ,last_name,dojos_id) VALUES ("Frank,Lampard",2);
+INSERT INTO ninjas (first_name ,last_name,dojos_id) VALUES ("Miki,Essien",2);
+INSERT INTO ninjas (first_name ,last_name,dojos_id) VALUES ("Lorence","Mac",2);
+
+INSERT INTO ninjas (first_name ,last_name,dojos_id) VALUES ("Erlic","Halland",3);
+INSERT INTO ninjas (first_name ,last_name,dojos_id) VALUES ("Andreas","Sun",3);
+INSERT INTO ninjas (first_name ,last_name,dojos_id) VALUES ("Jimy","Vardy",3) ;
+
+SELECT * FROM ninjas WHERE id=1;
+SELECT * FROM ninjas WHERE id=2;
+SELECT * FROM ninjas WHERE id=3;
+
+SELECT * FROM ninjas JOIN  dojos WHERE dojos.ID = ninjas.Dojo_ID and ninjas.ID = 2
