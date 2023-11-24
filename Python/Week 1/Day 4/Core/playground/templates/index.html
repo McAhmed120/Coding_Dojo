@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Project</title>
+    <style>
+        /* Define a CSS style for the boxes */
+        .box {
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            margin: 5px;
+            background-color: {{ color }};
+        }
+    </style>
+</head>
+<body>
+    {% for _ in range(num_boxes) %}
+        <!-- Use a loop to create the specified number of boxes -->
+        <div class="box"></div>
+    {% endfor %}
+</body>
+</html>
