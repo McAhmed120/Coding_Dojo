@@ -20,8 +20,9 @@ def new():
 
 @app.route('/user/create',methods=['POST'])
 def create():
+    data={**request.form}
     print(request.form)
-    Users.save(request.form)
+    print(Users.save(data))
     return redirect('/users')
 
 

@@ -19,15 +19,17 @@
             </tr>
         </thead>
         <tbody>
-            { % for user in users  %}
+            {% for user in users  %}
             <tr>
                 <th>{{user.first_name}}</th>
-                <th>{{user.Last_name}}</th>
-                <th>{{user.Email}}</th>
+                <th>{{user.last_name}}</th>
+                <th>{{user.email}}</th>
                 <th>{{user.created_at}}</th>
             </tr>
-            {% endfor%}
+            {%endfor%}
         </tbody>
+
     </table>
+    <a href="/user/new">next</a>
 </body>
 </html>
