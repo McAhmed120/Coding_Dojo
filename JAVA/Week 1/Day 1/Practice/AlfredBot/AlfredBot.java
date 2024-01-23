@@ -10,8 +10,8 @@ public class AlfredBot {
         return String.format("It is currently %s", new Date());
     }
     public String answeringBeforeAlexis(String phrase) {
-        if(phrase.indexOf("Alexis") > -1) {
-            return "She's really of no help. What can I get for you?";
+        if(phrase.indexOf("john doe") > -1) {
+            return "he's really of no help. What can I get for you?";
         }
         if (phrase.indexOf("Alfred") > -1) {
             return "At your service, naturally. How may I be of assistance?";
