@@ -1,1 +1,1 @@
-# MERNStack
+# JavaStack
