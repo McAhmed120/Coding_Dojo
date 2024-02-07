@@ -23,11 +23,14 @@ public class UserController {
      private UserService userServ;
     
      @GetMapping("/welcome")
-     public String welcome(HttpSession session) {
+     public String welcome(HttpSession session, Model model) {
     	 Long userId = (Long) session.getAttribute("user_id");
  		if(userId == null) {
  			return "redirect:/";
  		}
+ 		// grab the current logged-in user by id
+ 		UserModel currentUser = userServ.findUserById(userId);
+ 		model.addAttribute("user",currentUser);
          return "home.jsp";
      }
     @GetMapping("/")

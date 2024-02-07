@@ -4,6 +4,7 @@ import java.util.Optional;
 
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
 
@@ -55,5 +56,16 @@ public class UserService {
     		}
     	}
         return null;
+    }
+    
+    public UserModel findUserById(Long id) {
+    	
+    	Optional<UserModel> potientialUser = userRepo.findById(id);
+    	if(potientialUser.isPresent()) {
+    		return potientialUser.get();
+    	}else {
+    		return null;
+    	}
+    	
     }
 }
